@@ -6,7 +6,8 @@
   box-sizing: border-box; }
 
 header {
-  height: 7.5vh;
+  height: 65px;
+  width: 100%;
   border-bottom: .5px solid white;
   display: grid;
   grid-template-columns: 1fr 1fr; }
@@ -31,19 +32,32 @@ header {
         color: white;
         text-decoration: none; }
 
-.home_main {
+.home_body {
   background-color: #202020; }
-  .home_main section ul {
+  .home_body main section .home_img ul {
     display: grid;
     grid-template-columns: 50% 50%; }
-    .home_main section ul li {
+    .home_body main section .home_img ul li {
       list-style: none; }
-      .home_main section ul li a {
+      .home_body main section .home_img ul li a {
         display: flex;
         justify-content: center;
         align-items: center; }
-        .home_main section ul li a img {
-          width: 80%;
+        .home_body main section .home_img ul li a img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 85%;
           transition: .5s; }
-          .home_main section ul li a img:hover {
-            width: 85%; }
+          .home_body main section .home_img ul li a img:hover {
+            width: 90%; }
+  .home_body main section .home_title ul {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .home_body main section .home_title ul li {
+      list-style: none; }
+      .home_body main section .home_title ul li h2 {
+        font-family: 'Noto Sans JP', sans-serif;
+        color: white;
+        font-size: 2rem;
+        margin-left: 100px; }

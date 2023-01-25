@@ -1,20 +1,42 @@
-.home_main{
+.home_body{
     background-color: #202020;
-    section{
-        ul{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            li{
-                list-style: none;
-                a{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    img{
-                        width: 80%;
-                        transition: .5s;
-                        &:hover{
-                            width: 85%;
+    main{
+        section{
+            .home_img{
+                ul{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    li{
+                        list-style: none;
+                        a{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 85%;
+                                transition: .5s;
+                                &:hover{
+                                    width: 90%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .home_title{
+                ul{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    li{
+                        list-style: none;
+                        h2{
+                            font-family: 'Noto Sans JP', sans-serif;
+                            color: white;
+                            font-size: 2rem;
+                            margin-left: 100px;
                         }
                     }
                 }

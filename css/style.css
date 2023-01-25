@@ -33,3 +33,17 @@ header {
 
 .home_main {
   background-color: #202020; }
+  .home_main section ul {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .home_main section ul li {
+      list-style: none; }
+      .home_main section ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .home_main section ul li a img {
+          width: 80%;
+          transition: .5s; }
+          .home_main section ul li a img:hover {
+            width: 85%; }
